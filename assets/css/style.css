@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.img_slider{
+    width: 100%;
+    
+}
+
+.slide{
+    flex: 0 0 100%;
+}
+
+.slider{
+display: flex;
+transition: 0.2s;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left, .right{
+    padding: 10px;
+    background: blue;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
